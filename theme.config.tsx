@@ -2,9 +2,9 @@ import React from "react";
 import { DocsThemeConfig } from "nextra-theme-docs";
 
 const config: DocsThemeConfig = {
-  logo: <span>Highstorm</span>,
+  logo: <span>TAP-nextra</span>,
   project: {
-    link: "https://github.com/andykamp/tap-nextra",
+    // link: "https://github.com/andykamp/tap-nextra",
     icon: (
       <svg width="24" height="24" viewBox="0 0 256 256">
         <path
@@ -25,7 +25,7 @@ const config: DocsThemeConfig = {
         ></path>
       </svg>
       <span style={{ marginLeft: '.4em'}}>
-        My Cool Project
+        TAP-nextra
       </span>
     </>
   ),
@@ -43,10 +43,10 @@ const config: DocsThemeConfig = {
   },
 
   banner: {
-    key: '2.0-release',
+    key: 'release',
     text: (
-      <a href="https://nextra.site" target="_blank">
-        🎉 Nextra 2.0 is released. Read more →
+      <a href="https://github.com/andykamp/tap-nextra" target="_blank">
+        🎉 TAP-Nextra is here. Behold the greatness of DOCS 🎉 
       </a>
     )
   },
@@ -58,9 +58,9 @@ const config: DocsThemeConfig = {
   darkMode: true,
 
   gitTimestamp: true,
-  docsRepositoryBase: "https://github.com/chronark/highstorm/tree/main/apps/docs/",
+  docsRepositoryBase: "https://github.com/andykamp/tap-nextra",
   footer: {
-    text: "Highstorm Docs",
+    text: "TAP-project Docs",
   },
 };
 
