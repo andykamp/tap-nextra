@@ -1,6 +1,16 @@
 {
   "index": "Introduction",
   "another": "Another Page",
+  "anotherWithTheme": {
+    "title": "Another Page With Theme",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": false,
+      "pagination": true
+    }
+  },
   "advanced": "Advanced (A Folder)",
   "about": {
     "title": "About",
